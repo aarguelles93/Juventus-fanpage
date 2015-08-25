@@ -1,0 +1,159 @@
+{"plantilla":[{
+	"Titulares":{
+		"Jugador1":{
+			"Nombre": "Gianluigi",
+			"Apellido": "Buffon",
+			"Edad": "36",
+			"Dorsal": "1"
+		},
+		"Jugador2":{
+			"Nombre": "Leonardo",
+			"Apellido": "Bonucci",
+			"Edad": "27",
+			"Dorsal": "19"
+		},
+		"Jugador3":{
+			"Nombre": "Angelo",
+			"Apellido": "Ogbonna",
+			"Edad": "26",
+			"Dorsal": "5"
+		},
+		"Jugador4":{
+			"Nombre": "Giorgio",
+			"Apellido": "Chiellini",
+			"Edad": "30",
+			"Dorsal": "3"
+		},
+		"Jugador5":{
+			"Nombre": "Stephan",
+			"Apellido": "Lichtsteiner",
+			"Edad": "30",
+			"Dorsal": "26"
+		},
+		"Jugador6":{
+			"Nombre": "Paul",
+			"Apellido": "Pogba",
+			"Edad": "21",
+			"Dorsal": "6"
+		},
+		"Jugador7":{
+			"Nombre": "Arturo",
+			"Apellido": "Vidal",
+			"Edad": "27",
+			"Dorsal": "23"
+		},
+		"Jugador8":{
+			"Nombre": "Roberto",
+			"Apellido": "Pereyra",
+			"Edad": "23",
+			"Dorsal": "37"
+		},
+		"Jugador9":{
+			"Nombre": "Claudio",
+			"Apellido": "Marchisio",
+			"Edad": "28",
+			"Dorsal": "8"
+		},
+		"Jugador10":{
+			"Nombre": "Carlos",
+			"Apellido": "Tévez",
+			"Edad": "30",
+			"Dorsal": "10"
+		},
+		"Jugador11":{
+			"Nombre": "Fernando",
+			"Apellido": "Llorente",
+			"Edad": "29",
+			"Dorsal": "14"
+		}
+
+	},
+	"Suplentes": {
+		"Jugador12":{
+			"Nombre": "Marco",
+			"Apellido": "Storari",
+			"Edad": "37",
+			"Dorsal": "30"
+		},
+		"Jugador13":{
+			"Nombre": "Martín",
+			"Apellido": "Cáceres",
+			"Edad": "27",
+			"Dorsal": "4"
+		},
+		"Jugador14":{
+			"Nombre": "Simone",
+			"Apellido": "Pepe",
+			"Edad": "31",
+			"Dorsal": "7"
+		},
+		"Jugador15":{
+			"Nombre": "Álvaro",
+			"Apellido": "Morata",
+			"Edad": "21",
+			"Dorsal": "9"
+		},
+		"Jugador15":{
+			"Nombre": "Andrea",
+			"Apellido": "Pirlo",
+			"Edad": "35",
+			"Dorsal": "21"
+		},
+		"Jugador16":{
+			"Nombre": "Sebastian",
+			"Apellido": "Giovinco",
+			"Edad": "27",
+			"Dorsal": "12"
+		}
+	},
+	"Reserva":{
+		"Jugador16":{
+			"Nombre": "Rubinho",
+			"Apellido": "Moedim",
+			"Edad": "32",
+			"Dorsal": "34"
+		},
+		"Jugador17":{
+			"Nombre": "Patrice",
+			"Apellido": "Evra",
+			"Edad": "33",
+			"Dorsal": "33"
+		},
+		"Jugador18":{
+			"Nombre": "Simone",
+			"Apellido": "Padoin",
+			"Edad": "30",
+			"Dorsal": "20"
+		},
+		"Jugador18":{
+			"Nombre": "Simone",
+			"Apellido": "Padoin",
+			"Edad": "30",
+			"Dorsal": "20"
+		},
+		"Jugador19":{
+			"Nombre": "Kingsley",
+			"Apellido": "Coman",
+			"Edad": "18",
+			"Dorsal": "11"
+		}
+	},
+	"Cuerpo Técnico":{
+		"Tecnico1":{
+			"Nombre": "Massimiliano",
+			"Apellido": "Allegri",
+			"Edad": "47"
+		},
+		"Tecnico2":{
+			"Nombre": "Marco",
+			"Apellido": "Landucci",
+			"Edad": "50"
+		},
+		"Tecnico2":{
+			"Nombre": "Maurizio",
+			"Apellido": "Trombetta",
+			"Edad": "52"
+		}
+	}
+}	
+]}
