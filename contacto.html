@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Juventus-Contacto</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="css/carousel.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.1.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script>
+        $(function() {
+
+          $('#datepicker').datepicker({
+            changeMonth:true,
+            changeYear: true,
+            maxDate: -0
+        });
+
+      });
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+        <div id="wrap">
+        	<header class="container-fluid"><!-- class="container"  -->
+        		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        			<div class="container">
+        				<div class="navbar-header">
+        					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        						<span class="sr-only">Toggle navigation</span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+        					</button>
+
+
+        					<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+
+
+        				</div>
+        				<div style="height: 1px;" class="navbar-collapse collapse">
+        					<ul class="nav navbar-nav navbar-right">
+        						<li><a href="index.html">Inicio</a></li>
+        						<li><a href="acerca.html">Acerca del Equipo</a></li>
+        						<li><a href="plantilla.hmtl">Plantilla</a></li>
+        						<li class="dropdown">
+        							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Galeria <span class="caret"></span></a>
+        							<ul class="dropdown-menu" role="menu">
+        								<li><a href="fotos.html">Fotos</a></li>
+        								<li><a href="videos.html">Videos</a></li>                                     
+        							</ul>
+        						</li>
+        						<li><a href="tienda.html">Tienda</a></li>
+        						<li class="active"><a href="#">Contacto</a></li>
+        					</ul>
+        				</div>
+        			</div>
+        		</nav>
+        	</header>
+        	<section>
+        		<h1 class="text-center">Contacto</h1>
+        		<div class="container container-white">
+
+        			<div class="row">
+        				<div class="col-md-12">
+        					<h2>Dirección</h2>
+        					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11263.309155210782!2d7.641264!3d45.109569!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe3be8084a88d8da5!2sJuventus+Stadium!5e0!3m2!1ses!2s!4v1411856358845" width="100%" height="350" frameborder="0" style="border:0"></iframe>						
+        					<p>Corso Gaetano Scirea, 50, Torino, Italia</p>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="container">
+        			<div class="row">
+        				<div class="col-md-6 col-xs-12 col-sm-12 container-white">
+        					<h2>Escríbenos</h2>
+        					<form role="form">
+                                <div class="form-group">
+                                    <label for="inputNombre">Nombre:</label>
+                                    <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese nombre" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputDireccion">Direccion:</label>
+                                    <input type="text" class="form-control" id="inputDireccion" placeholder="Ingrese direccion" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputCiudad">Ciudad:</label>
+                                    <input type="text" class="form-control" id="inputCiudad" placeholder="Ingrese ciudad" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputTelefono">Telefono:</label>
+                                    <input type="number" class="form-control" id="inputTelefono" placeholder="Ingrese telefono" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputCelular">Celular:</label>
+                                    <input type="number" class="form-control" id="inputCelular" placeholder="Ingrese celular" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail">E-mail:</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="datepicker">Fecha de nacimiento:</label>
+                                    <input type="text" class="form-control" id="datepicker" placeholder="Ingrese fecha de nacimiento">
+                                </div>                            
+                                <div class="form-group">
+                                    <label for="inputAsunto">Asunto:</label>
+                                    <input type="text" class="form-control" id="inputAsunto" placeholder="Ingrese asunto" required>
+                                </div>
+                                <div class="form-group">
+                                     <label for="inputTextArea">Mensaje:</label>
+                                     <textarea id="inputTextArea" class="form-control" rows="3" placeholder="Ingrese mensaje" required></textarea>   					
+                                </div>
+
+                             <button type="submit" class="btn btn-default">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6 col-xs-12 col-sm-12 container-white">
+                           <h2>Teléfono</h2>
+                           <ul>
+                              <li><p>Centro de Atención:	899 999	897</p></li>
+                              <li><p>Estadio:	+39 899 999 897</p></li>
+                          </ul>						
+                        </div>
+                    </div>
+                </div>            
+            </section>
+
+            <div id="push"></div>
+        </div>
+
+        <footer>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <ul class="nav nav-pills col-md-6">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="acerca.html">Acerca</a></li>
+                        <li><a href="plantilla.html">Plantilla</a></li>
+                        <li><a href="fotos.html">Fotos</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        <li><a href="tienda.html">Tienda</a></li>
+                        <li class="active"><a href="#">Contacto</a></li>
+                    </ul>
+                    <div class="col-md-6">
+                        <p class="text-center">Desarrollado por Andrés Argüelles. 2014. Página no oficial</p>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+
+    </body>
+
+</html>

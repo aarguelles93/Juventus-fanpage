@@ -1,0 +1,151 @@
+html, body{
+	height: 100%;
+}
+body{
+	background-color: black;
+	font-family: arial, sans-serif;
+	
+	padding-bottom: 0px;
+}
+
+#wrap{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+}
+#push{
+	height: 80px;
+}
+footer{
+	height: 60px;
+}
+
+footer p{
+	padding-top: 10px;
+}
+footer .navbar{
+	margin-bottom: 0px;
+
+}
+
+
+
+h1, h2, h3{
+	color: #FFCC00;
+}
+
+#navbar-header{
+	border-radius: 25px;
+	min-height: 130px;
+}
+
+.navbar-brand{
+	height: 100%;
+	max-height: 100px;
+	padding: 5px;
+}
+
+
+.navbar-brand > img{
+	height: 100%;
+	max-height: 100px;
+	width: auto;
+}
+
+
+
+.container-white{
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	border: 5px solid black;
+}
+.container-black{
+	background-color: black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	border: 5px solid black;
+}
+
+.info-content{
+	padding-top: 20px;	
+}
+.info-content > p{
+	font-size: 18px;
+}
+
+.thumbnail{
+	height: auto;
+	width: auto;
+}
+.thumbnail img{
+	height: auto;
+	width: auto;
+}
+
+/*HOME*/
+#logoImg{
+	height: 50px;
+	width: auto;
+}
+#panorama{
+	background-image: url("../img/panoramic.jpg");
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+	/*padding-top: 40px;*/
+}
+#panorama > .container{
+	height: 100%;
+}
+
+#panorama >div >div > h1{
+	padding-top: 10%;
+}
+#panorama >div >div > ul{
+	padding-top: 15%;
+}
+#panorama ul{
+	float: right;
+	padding-top: 20px;
+	padding-left: 25%;
+	width: 100%;
+
+}
+#panorama ul li
+{
+	display: inline-block;
+	padding-right: 20px;
+	width: 30%;
+}
+
+
+/*Contact*/
+
+
+/*Fotos*/
+#tabFotos > li > a{
+	color: #FFCC00;
+
+}
+.tab-content{
+	
+}
+.tab-content  .tab-pane{
+	border-style: none;
+}
+
+/*Videos*/
+.video{
+	display: block;
+	margin: 15px auto;
+	max-height: 315px;
+	height: 100%;
+	min-height: 315px;
+	max-width: 420px;
+	width: 100%;
+	min-width: 210px;
+}
